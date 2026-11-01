@@ -1,0 +1,18 @@
+# Environment and local credentials
+.env
+.env.*
+!.env.example
+/config/database.local.php
+
+# Dependencies and generated files
+/vendor/
+/node_modules/
+/cache/
+/tmp/
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

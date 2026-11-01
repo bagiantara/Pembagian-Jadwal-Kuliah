@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^admin/?$ index.php?url=admin [QSA,L]
+RewriteRule ^user/?$ index.php?url=user [QSA,L]
